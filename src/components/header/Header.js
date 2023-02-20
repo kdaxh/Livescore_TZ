@@ -28,7 +28,7 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home"
-                                onClick={() => setActiveNav("#home")}
+                                onClick={() => setActiveNav("#")}
                                 className={activeNav === "#home" ?
                                     "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-estate nav__icon"></i> HOME
@@ -40,7 +40,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#about")}
                                 className={activeNav === "#about" ?
                                     "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-user nav__icon"></i> TOURNAMENT
+                                <i className="uil uil-user nav__icon"></i> TEAMS
                             </a>
                         </li>
 
@@ -49,7 +49,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#skills")}
                                 className={activeNav === "#skills" ?
                                     "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-file nav__icon"></i> TEAMS
+                                <i className="uil uil-file nav__icon"></i> MATCH
                             </a>
                         </li>
 
@@ -58,7 +58,7 @@ const Header = () => {
                                 onClick={() => setActiveNav("#services")}
                                 className={activeNav === "#services" ?
                                     "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-briefcase nav__icon"></i> MATCH
+                                <i className="uil uil-briefcase nav__icon"></i> EVENTS
                             </a>
                         </li>
                     </ul>
