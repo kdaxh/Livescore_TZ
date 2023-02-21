@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./header.css";
 import logo from "../../assets/logo.png";
+import teams from "../../assets/teams.png";
 
 const Header = () => {
     /*============== Change Background Header =============*/
@@ -19,6 +20,10 @@ const Header = () => {
 
     return (
         <header className="header">
+            <div className="teams_nav">
+                <img src={teams} />
+            </div>
+            
             <nav className="nav nav__container">
                 <a href="index.html" className="nav__logo">
                     <div class="logo"><img src={logo} /></div>
