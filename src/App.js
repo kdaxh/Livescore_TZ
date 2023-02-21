@@ -14,7 +14,6 @@ const App = () => {
       <main className='main'>
         <Home />
         <Results/>
-        
       </main>
 
       <Footer />

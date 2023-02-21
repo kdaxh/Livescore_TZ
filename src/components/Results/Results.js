@@ -1,8 +1,11 @@
 import React from 'react'
+import pic2 from '../../assets/2.jpg'
 
 const Results = () => {
   return (
-    <div>Results</div>
+    <div>
+      <img src={pic2} />
+    </div>
   )
 }
 
