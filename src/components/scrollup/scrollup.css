@@ -5,7 +5,7 @@
     background-color: var(--title-color);
     opacity: 0.8;
     padding: 0.3rem 0.5rem;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
     z-index: var(--z-tooltip);
     transition: 0.4s;
 }

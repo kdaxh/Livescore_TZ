@@ -51,44 +51,51 @@ const Footer = () => {
           </li>
         </ul>
         <h3 className="footer__title">CONTACT US</h3>
-        <ul className="footer__list">
+        <ul className="contact__list">
           <li>
-            $
+            <i class='bx bx-map-pin'></i>
             <p />Plot 46/4 Nyerere Road,
             <p />P.O.Box 2517 Dar es Salaam,
             <p />Tanzania,
           </li>
 
           <li>
-            $
+            <i class='bx bx-phone'></i>
             <p />(+255) 0764 700 222
           </li>
 
           <li>
-            $
+            <i class='bx bxl-gmail' ></i>
             <p />info@azam-media.com
           </li>
         </ul>
 
         <h3 className="footer__title">FOLLOW US</h3>
         <div className="footer__social">
-          <a href="https://www.linkedin.com/in/kilala-dashina-52b837204/"
+          <a href="https://www.facebook.com/azamtvtz?_rdr=p"
             className="footer__social-link"
             target="_blank">
-            <i class="bx bxl-linkedin"></i>
+            <i class='bx bxl-facebook' ></i>
           </a>
 
-          <a href="https://github.com/kdaxh/"
-            className="footer__social-link"
-            target="_blank">
-            <i class="bx bxl-github"></i>
-          </a>
-
-          <a href="https://twitter.com/kdaxh_"
+          <a href="https://twitter.com/azamtvtz"
             className="footer__social-link"
             target="_blank">
             <i class="bx bxl-twitter"></i>
           </a>
+
+          <a href="https://www.youtube.com/user/azamtv1"
+            className="footer__social-link"
+            target="_blank">
+            <i class='bx bxl-youtube'></i>
+          </a>
+
+          <a href="https://www.instagram.com/azamtvtz/"
+            className="footer__social-link"
+            target="_blank">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+
         </div>
 
         <span className="footer__copy">
